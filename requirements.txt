@@ -1,0 +1,11 @@
+# Vector Graph RAG Demo —— 默认零依赖，以下均为「可选」生产级组件。
+# 直接 `python3 run_demo.py` 不需要安装任何东西。
+
+# 语义向量（替换 TF-IDF，效果更好）
+sentence-transformers>=2.2
+
+# LLM 抽取三元组 / 生成答案（替换启发式）
+openai>=1.0
+
+# 生产级向量库（替换内存版，与官方 Vector Graph RAG 一致）
+pymilvus>=2.4
